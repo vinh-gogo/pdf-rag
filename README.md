@@ -2,6 +2,11 @@
 
 A complete pipeline for extracting text from PDF files, splitting into pages and sequences, and storing in Qdrant vector database for semantic search and retrieval.
 
+> 📖 **Case Study & In-Depth Technical Breakdown:**  
+> Read the complete architectural design, Vietnamese embedding benchmarks, and engineering deep-dive:  
+> - 🇻🇳 **Vietnamese:** [PDF-RAG: Khi Báo Cáo 200 Trang Khiến Bot "Ngáo Ngơ" Và Cách Trị Bằng Dual-Level Qdrant](https://gloryhinody.com/posts/pdf-rag-enterprise-dual-collection/)  
+> - 🇬🇧 **English:** [PDF-RAG: When 200-Page Reports Make Your Bot Hallucinate and How Dual-Level Qdrant Saves the Day](https://gloryhinody.com/en/posts/pdf-rag-enterprise-dual-collection/)
+
 **📢 *New Features***
 _____
 
@@ -54,8 +59,10 @@ python src/api/rag_service.py
 ```
 
 ```bash
-lea26@home-6-8-2025 MINGW64 /d/WETEC/rag (main)
-export NVM_DIR="$HOME/.nvm" && [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" && nvm use node && cd src/app && npm run dev
+# Run Next.js Frontend UI
+cd src/app
+npm install
+npm run dev
 ```
 
 ### 1.0. Convert PDF to markdown with cuda
@@ -78,7 +85,7 @@ python -m src.helpers.pdfs_to_markdown --input_dir src/data/pdfs/pages --output_
 
 ### 2. Environment Setup
 
-Create `.env` file:
+Create `.env` file from the `.env config` section above.
 
 ### 3. Run Complete Pipeline
 
@@ -212,5 +219,7 @@ Vinh-Gogo
 
 ## 🔗 Links
 
+- [Technical Case Study (Vietnamese)](https://gloryhinody.com/posts/pdf-rag-enterprise-dual-collection/)
+- [Technical Case Study (English)](https://gloryhinody.com/en/posts/pdf-rag-enterprise-dual-collection/)
 - [GitHub Repository](https://github.com/Vinh-Gogo/pdf-rag)
 - [Qdrant Documentation](https://qdrant.tech/documentation/)
