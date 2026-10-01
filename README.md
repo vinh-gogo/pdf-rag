@@ -4,8 +4,7 @@ A complete pipeline for extracting text from PDF files, splitting into pages and
 
 > 📖 **Case Study & In-Depth Technical Breakdown:**  
 > Read the complete architectural design, Vietnamese embedding benchmarks, and engineering deep-dive:  
-> - 🇻🇳 **Vietnamese:** [PDF-RAG: Khi Báo Cáo 200 Trang Khiến Bot "Ngáo Ngơ" Và Cách Trị Bằng Dual-Level Qdrant](https://glory-hinody.com/posts/pdf-rag-enterprise-dual-collection/)  
-> - 🇬🇧 **English:** [PDF-RAG: When 200-Page Reports Make Your Bot Hallucinate and How Dual-Level Qdrant Saves the Day](https://glory-hinody.com/en/posts/pdf-rag-enterprise-dual-collection/)
+> - 🇬🇧 **English:** [PDF-RAG: When 200-Page Reports Make Your Bot Hallucinate and How Dual-Level Qdrant Saves the Day](https://glory-hinody.pages.dev/posts/pdf-rag-enterprise-dual-collection)
 
 **📢 *New Features***
 _____
